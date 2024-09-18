@@ -26,6 +26,8 @@ https://tronscan.org/#/contract/TDNbPAZh1cWvdJDnJ5M56eCwbxFm7b1x8V
 
 TXF1xDbVGdxFGbovmmmXvBGu8ZiE3Lq4mR
 
+TKzxdSv2FZKQrEqkKVgp5DcwEXBEKMg2Ax（deprecated）
+
 ABI 见 V2Router.abi
 
 #### factory
@@ -73,7 +75,9 @@ ABI 见 V3NFTPostionManager.abi
 ```
 ### 智能路由合约
 
-TFVisXFaijZfeyeSjCEVkHfex7HGdTxzF9
+TJ4NNy8xZEqsowCBhLvZ45LCqPdGjkET5j
+
+TFVisXFaijZfeyeSjCEVkHfex7HGdTxzF9（deprecated）
 
 ABI 见 SmartExchangeRouter.abi
 
