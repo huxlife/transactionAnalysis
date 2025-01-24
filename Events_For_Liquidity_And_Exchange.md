@@ -75,7 +75,9 @@ ABI 见 V3NFTPostionManager.abi
 ```
 ### 智能路由合约
 
-TJ4NNy8xZEqsowCBhLvZ45LCqPdGjkET5j
+TCFNp179Lg46D16zKoumd4Poa2WFFdtqYj
+
+TJ4NNy8xZEqsowCBhLvZ45LCqPdGjkET5j（deprecated）
 
 TFVisXFaijZfeyeSjCEVkHfex7HGdTxzF9（deprecated）
 
