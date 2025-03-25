@@ -9,6 +9,7 @@
 **Description:**
 
 * This function allows the creation of a new token and immediately initiates a purchase of the token.
+* Tokens created through this function will not be displayed on the SunPump page. Only tokens created via the SunPump webpage will be shown on the SunPump page.
 
 **Function Signature:**
 
