@@ -2,7 +2,7 @@
 
 ### LaunchpadProxy: TTfvyrAz86hbZk5iDpKD78pqLGgi8C7AAw (Bonding Curve Period)
 
-\*\* ABI code to get from: [implementation address](https://tronscan.org/#/contract/TQHj5QZA8PaHBcAGkYdi8QxdtuNabuVx5r/code) 
+\*\* ABI code to get from: [implementation address](https://tronscan.org/#/contract/TKYQmYdssV2UVjr7UmNNt4jti1mmm7ZWnX/code) 
 
 #### **1\. createAndInitPurchase Function**
 
