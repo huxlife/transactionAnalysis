@@ -335,7 +335,7 @@ getExactTrxAmountForSaleWithFee();
 
 ### PumpSwapRouter: TZFs5ch1R1C4mmjwrrmZqeqbUgGpxY1yWB (Launched to Dex)
 
-\*\* Only Allow Pump created token and TRX trading pair, using **[Sunpump Contracts](https://docs.google.com/document/d/1Xs3CP-MF9gz639CdIo_FCO2IKIADrtJ5MdCqEk4S7NM/edit#heading=h.8ohmkvc6ukgh)** to determine if a pair is allowed for trade. Else transaction will revert.  
+\*\* Only Allow Pump created token and TRX trading pair, using **Sunpump Contracts** to determine if a pair is allowed for trade. Else transaction will revert.  
 \*\* Use the [Factory Contract](https://tronscan.org/#/contract/TKWJdrQkqHisa1X8HUdHEfREvTzw4pMAaY/code) to getPair address, then from the Pair address getReserves for token0 & token1  
 \*\* Contract ABIs are available on TronScan
 
@@ -381,7 +381,7 @@ swapExactETHForTokens();
 
 #### **2\. swapTokensForExactETH Function**
 
-**Description:** This function swaps an exact amount of tokens for as much ETH as possible.
+**Description:** This function swaps tokens for a exact amount of TRX.
 
 **Function Signature:**
 
@@ -451,7 +451,7 @@ swapExactTokensForETH();
 
 #### **4\. swapETHForExactTokens Function**
 
-**Description:** This function swaps an exact amount of ETH for as few input tokens as possible.
+**Description:** This function swaps TRX to receive an exact amount of tokens.
 
 **Function Signature:**
 
