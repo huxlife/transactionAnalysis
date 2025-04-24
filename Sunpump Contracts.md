@@ -341,7 +341,7 @@ getExactTrxAmountForSaleWithFee();
 
 #### **1\. swapExactETHForTokens Function**
 
-**Description:** This function swaps an exact amount of ETH for as many output tokens as possible, along the route determined by the path.
+**Description:** This function swaps an exact amount of TRX for as many output tokens as possible, along the route determined by the path.
 
 **Function Signature:**
 
@@ -356,7 +356,7 @@ function swapExactETHForTokens(uint amountOutMin, address[] calldata path, addre
 * `to`: Address to receive the output tokens.  
 * `deadline`: Unix timestamp after which the transaction will revert.
 
-TRX Requirement: This function requires you to send ETH as the call value, which will be swapped for the tokens.
+TRX Requirement: This function requires you to send TRX as the call value, which will be swapped for the tokens.
 
 **Example Call:**
 
@@ -391,10 +391,10 @@ function swapTokensForExactETH(uint amountOut, uint amountInMax, address[] calld
 
 **Parameters:**
 
-* `amountOut`: The exact amount of ETH to receive.  
+* `amountOut`: The exact amount of TRX to receive.  
 * `amountInMax`: The maximum amount of input tokens that can be required before the transaction reverts.  
-* `path`: An array of token addresses. The first address must be the input token, and the last address must be WETH.  
-* `to`: Address to receive the ETH.  
+* `path`: An array of token addresses. The first address must be the input token, and the last address must be WTRX.  
+* `to`: Address to receive the TRX.  
 * `deadline`: Unix timestamp after which the transaction will revert.
 
 **Example Call:**
@@ -416,7 +416,7 @@ swapTokensForExactETH();
 
 #### **3\. swapExactTokensForETH Function**
 
-**Description:** This function swaps an exact amount of tokens for as much ETH as possible.
+**Description:** This function swaps an exact amount of tokens for as much TRX as possible.
 
 **Function Signature:**
 
@@ -427,9 +427,9 @@ function swapExactTokensForETH(uint amountIn, uint amountOutMin, address[] calld
 **Parameters:**
 
 * `amountIn`: The exact amount of input tokens to send.  
-* `amountOutMin`: The minimum amount of ETH that must be received for the transaction not to revert.  
-* `path`: An array of token addresses. The first address must be the input token, and the last address must be WETH.  
-* `to`: Address to receive the ETH.  
+* `amountOutMin`: The minimum amount of TRX that must be received for the transaction not to revert.  
+* `path`: An array of token addresses. The first address must be the input token, and the last address must be WTRX.  
+* `to`: Address to receive the TRX.  
 * `deadline`: Unix timestamp after which the transaction will revert.
 
 **Example Call:**
@@ -462,11 +462,11 @@ function swapETHForExactTokens(uint amountOut, address[] calldata path, address 
 **Parameters:**
 
 * `amountOut`: The exact amount of tokens to receive.  
-* `path`: An array of token addresses. The first address must be WETH, and the last address must be the output token.  
+* `path`: An array of token addresses. The first address must be WTRX, and the last address must be the output token.  
 * `to`: Address to receive the tokens.  
 * `deadline`: Unix timestamp after which the transaction will revert.
 
-TRX Requirement: This function requires you to send ETH as the call value, which will be swapped for the tokens.  
+TRX Requirement: This function requires you to send TRX as the call value, which will be swapped for the tokens.  
 **Example Call:**
 
 ```javascript
