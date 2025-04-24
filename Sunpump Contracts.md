@@ -381,7 +381,7 @@ swapExactETHForTokens();
 
 #### **2\. swapTokensForExactETH Function**
 
-**Description:** This function swaps tokens for a exact amount of TRX.
+**Description:** This function swaps tokens for an exact amount of TRX.
 
 **Function Signature:**
 
