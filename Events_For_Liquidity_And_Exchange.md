@@ -8,9 +8,9 @@ TXk8rQSAvPvBBNtqSoY6nCfsXWCSSpTVQF
 https://tronscan.org/#/contract/TXk8rQSAvPvBBNtqSoY6nCfsXWCSSpTVQF
 #### Pair
 
-TDNbPAZh1cWvdJDnJ5M56eCwbxFm7b1x8V
+TQn9Y2khEsLJW1ChVWFMSMeRDow5KcbLSE
 
-https://tronscan.org/#/contract/TDNbPAZh1cWvdJDnJ5M56eCwbxFm7b1x8V
+https://tronscan.org/#/contract/TQn9Y2khEsLJW1ChVWFMSMeRDow5KcbLSE
 
 #### GetPairAddress
 
